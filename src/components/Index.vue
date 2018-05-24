@@ -7,7 +7,7 @@
             <p class="heading-text">I make harmonic, optimized, and inviting user experiences. Currently looking for an internship position.</p>
             <!-- <a class="btn">Explore Work</a>
             <a class="btn">View Profile</a> -->
-            <router-link class="btn" to="/work">Explore Work</router-link>
+            <router-link class="btn" to="/">Explore Work</router-link>
             <router-link class="btn" to="/profile">View Profile</router-link>
           </div>
 

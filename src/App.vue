@@ -108,7 +108,7 @@ export default {
 @import './sass/_styles.scss';
 #app {
     min-height: 100vh;
-     background: linear-gradient(to left, rgba(54, 209, 220, 0.98), rgba(91, 135, 229, 0.8)), url('https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+     background: linear-gradient(to left, rgba(54, 209, 220, 0.98), rgba(91, 135, 229, 0.8));
      background-position: center;
      background-size: cover;
 }
