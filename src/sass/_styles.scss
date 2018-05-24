@@ -1,0 +1,135 @@
+// @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css');
+// @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+// CSS Variables
+:root {
+    --primary-clr: #e6e4ec;
+    --primary-clr_light: blue;
+    --primary-clr_dark: green;
+    --bg-primary: rgba(33, 77, 153, .7);
+    --bg-primary_light: teal;
+    --bg-primary_dark: lightblue;
+    --btn-primary: white;
+    --btn-primary_bg: transparent;
+    --font-family: 'Open Sans', sans-serif;
+    --font-primary: #333;
+    // --font-defaultLg: 125%;
+    // --font-defaultSm: 100%;
+    // --ratioSm: 1.2;
+    // --stepUp1Sm: calc(1em * var(--ratioSm));
+    // --stepUp2Sm: calc(var(--stepUp1Sm) * var(--ratioSm));
+    // --stepUp3Sm: calc(var(--stepUp2Sm) * var(--ratioSm));
+    // --stepDown1: calc(1em / var(--ratioSm));
+    // // --font-tabport: 56.25%;
+    // // --font-tabland: 62.5%;
+    // // --font-bigdesk: 75%;
+    // // Responsive Fonts
+    // // Large Screens
+    // --ratioLg: 1.2;
+    // --stepUp1Lg: calc(1em * var(--ratioLg));
+    // --stepUp2Lg: calc(var(--stepUp1Lg) * var(--ratioLg));
+    // --stepUp3Lg: calc(var(--stepUp2Lg) * var(--ratioLg));
+    // --stepDown1: calc(1em / var(--ratioLg));
+}
+
+h1,
+h2,
+h3,
+h4,
+{
+    // font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+    // @media all and (min-width: 48em) {
+    //     font-size: 112%;
+    // }
+    @media all and (min-width: 64em) {
+        font-size: 113%;
+    }
+    @media all and (min-width: 80em) {
+        font-size: 80%;
+    }
+}
+
+// html {
+//     box-sizing: border-box;
+//     font-size: var(--stepDown1);
+//     @media all and (min-width: 48em) {
+//         font-size: var(--font-defaultLg);
+//     }
+//     @media all and (min-width: 80em) {
+//         font-size: var(--stepDown1);
+//     }
+// }
+// @media only screen and (min-width: 30em) {
+//      :root {
+//         --font-default: 62.5%;
+//     }
+// }
+// @media only screen and (min-width: 48em) {
+//      :root {
+//         --font-default: 75%;
+//     }
+// }
+// @media only screen and (min-width: 64em) {
+//      :root {
+//         --font-default: 82.7%;
+//     }
+// }
+// @media only screen and (min-width: 80em) {
+//      :root {
+//         --font-default: 87%;
+//     }
+// }
+body {
+    box-sizing: border-box;
+    // font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: var(--font-primary);
+    letter-spacing: 1px;
+    padding: 0;
+    // @media all and (min-width: 80em) {
+    //     letter-spacing: 1.5px;
+    // }
+}
+
+// BUTTON
+.btn {
+    &,
+    &:link,
+    &:visited {
+        font-size: .8rem;
+        color: var(--primary-clr);
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: .5rem 1.5rem;
+        display: inline-block;
+        transition: all .2s;
+        position: relative;
+        background-color: transparent;
+        //Change for the <button> element
+        border: 1px solid var(--primary-clr);
+        cursor: pointer;
+        @media all and (min-width: 80em) {
+            font-size: 1.2rem;
+            padding: .9rem 2.7rem;
+        }
+    }
+}
